@@ -15,6 +15,28 @@
       justify-content: center;
     }
 
+    @media screen and (max-width: 600px) {
+      body {
+        background-image: linear-gradient(0deg, #f6d365, #fda085);
+      }
+
+      h1 {
+        font-size: 5vw; /* Responsive font size */
+      }
+
+      input, textarea {
+        margin: 15px; /* Increased margin for better touch interaction */
+        padding: 15px; /* Increased padding for better touch interaction */
+        font-size: 4vw; /* Responsive font size */
+      }
+
+      .content {
+        margin-top: 20px; /* Adjusted margin */
+        width: 90%; /* Use more of the screen width */
+        box-sizing: border-box; /* Ensures padding does not add to the width */
+      }
+    }
+
     h1 {
       color: #333;
     }
